@@ -64,3 +64,29 @@ for(aux=0; aux<=100; aux++){
 }
 
 console.log('Resultado da soma:'+soma(25,30))
+
+const devide = (aux) =>{
+    return aux / 2
+}
+
+console.log('valor arrow function')
+console.log(devide(10))
+
+const quadrado = (n) => n*n
+
+console.log('valor quadrado')
+console.log(quadrado(2))
+
+function somaval(val1, val2)
+{
+    if(val2 == undefined)
+        return val1
+    else 
+        return val1 + val2
+}
+
+console.log('soma undefined')
+console.log(somaval(1))
+
+console.log('soma undefined')
+console.log(somaval(1, 1))
