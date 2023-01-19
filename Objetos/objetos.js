@@ -128,4 +128,4 @@ class cachorro extends Mamifero{ // herda mama da classe mamifero
 
 let pincher = new cachorro('sim', 5)
 console.log(pincher.mama + pincher.patas)
-console.log(new cachorro instanceof Mamifero) // verifica se cachorro herda valores de mamifero
+console.log(new cachorro instanceof Mamifero) // verifica se cachorro é uma instancia de mamifero
